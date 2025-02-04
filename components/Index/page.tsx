@@ -7,7 +7,7 @@ import CompanyChart from '@/components/CompanyChart';
 import { fullCompanyList } from '@/data/Companydetails';
 import { BackgroundGradient } from '@/components/ui/background-gradient';
 
-export default function page() {
+export default function Page() {
   const [selectedCompany, setSelectedCompany] = useState<typeof fullCompanyList[0] | null>(null);
 
   return (
